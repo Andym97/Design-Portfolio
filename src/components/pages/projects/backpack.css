@@ -1,0 +1,279 @@
+.backpack1{
+  background-color: #F2F8FF;
+
+}
+
+.container{
+background-color:white;
+width:100%;
+border-radius: 32px;
+text-align: left;
+flex-direction: column;
+
+height:auto;
+align-items: flex-start;
+padding-left:20px;
+
+-webkit-box-align: center;
+background-color: white;
+padding: 20px 40px 20px;
+margin-bottom: 50px;
+box-shadow: rgb(209 230 255 / 57%) 0px 2px 24px 1px;
+}
+.sub-container{
+    width:100%;
+    box-sizing: border-box;
+
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    align-items: center;
+    padding-left: 10px;
+    padding-right:10px;
+    text-align: left;
+  }
+
+  
+.grid{
+  width:100%;
+  height:100%;
+  text-align:center;  
+  align-items: center;
+}
+.grid img{
+  object-fit: cover;
+  width:900px;
+  height:100%;
+  margin-bottom: 10px;
+  }
+
+  .row {
+    display: flex;
+    object-fit:contain;
+    margin-bottom: 20px;
+    width:100%;
+    flex-direction: column;
+    grid-column-gap: 40px;
+    padding-left: 0px;
+
+  }
+  
+
+  .col {
+    display:flex;
+    width:330px;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: fill;
+  }
+  .col img{
+
+     border:1px solid black;
+  }
+
+
+.container img{
+  height:auto;
+}
+
+.container text{   
+  color:#555555;
+  font-size: 18px;
+  letter-spacing: 0.38px;
+  line-height: 22px;
+  text-align: center;
+  font-family: 'Circular Std Bold';
+  margin-bottom: 10px;
+  line-height: 40px;
+  }
+
+
+.wireframe{
+  width:90%;
+  height:auto;
+  margin-top:20px;
+}
+.user-persona{
+  height: 100%;
+    width:100%;
+    display: block;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border:solid 1px black;
+    border-radius: 20px;
+}
+.flow-img{
+  height: 100%;
+    width:100%;
+    object-fit: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+img{
+
+  height: auto;
+  width:100%;
+  object-fit: cover;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+
+}
+
+  item-caption{
+      font-size:  18px;;
+      text-align: center;
+  }
+  .item img{
+    object-fit: cover;
+    width:90%;
+    
+
+  }
+
+  .single-photo{
+        width:444.5px;
+        height:316.66px;
+        align-items: center;
+  }
+
+  .highlight-text.shown{
+    background-image: linear-gradient(to right, transparent 50%, #FABB5460 50%);
+    position: relative;
+    background-origin: 0;
+    background-size: 200% 100%;
+    background-repeat: repeat-x;
+    background-position: -100% 100%;
+    transition: background-position 0.8s ease-out;
+    padding:2px 0px;
+    
+  }
+
+  .highlight.shown {
+    position: relative;
+    background-origin: 0;
+    background-size: 200% 100%;
+    background-repeat: repeat-x;
+    background-position: -100% 100%;
+    transition: background-position 0.8s ease-out;
+    padding:4px 0px;
+  }
+
+/* Text Styles */
+.tag{
+  align-self: flex-start;
+  border-radius: 15px;
+  padding: 10px 18px 7px;
+  background: rgb(231, 221, 253);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(90, 3, 185);
+  margin-left:0px;
+  margin-top:20px;
+  font-family: 'Circular Std Bold';
+  
+
+}
+
+.tag.blue{
+  background: rgb(219, 240, 255);
+  color: rgb(0, 132, 232);
+
+
+}
+h2{
+  color: #555555;
+  font-size:24px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Circular Std Bold';
+  margin:50px 0 25px;
+}
+h3{
+  color: #555555;
+  font-size:24px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'Circular Std Bold';
+  margin:50px 0 25px;
+  padding-left:15px;
+}
+h4{
+margin-bottom: 16px;
+font-family: 'Circular Std Bold';
+font-size: 20px;
+color: #555555;
+letter-spacing: 0.8px;
+
+}
+
+span{
+  
+  margin-top: 500px;
+  padding-top: 50px;
+  display:inline;
+  
+}
+
+p{
+  padding-left: 20px;
+  padding-top:15px;
+  padding-bottom:15px;
+  font-family: 'Circular Std ';
+  font-size: 18px;
+  letter-spacing: 1px;
+  color:black;
+  line-height: 40px;
+  text-align: left;
+
+
+    }
+li{
+      font-family: 'Circular Std Bold';
+      font-size:14px;
+      line-height: 22px;
+      color: #818181;
+      padding-left: 10px;
+      text-align: left;
+      padding-bottom:15px;
+      letter-spacing:1px;
+      padding-top:15px;
+      padding-left:20px;
+
+    }
+
+    .title{
+      color: #535353;
+      font-size:16px;
+      font-weight: 100;
+      letter-spacing: 2px;
+      text-align: left;
+      text-transform: uppercase;
+      font-family: 'Circular Std Bold';
+      padding-top:10px;        
+      padding-left: 20px;
+      padding-bottom:15px;
+      letter-spacing: 0.50px;
+
+   }
+
+   @font-face{
+      font-family:'Circular Std Bold';
+      src:local(Circular Std Bolt), url(./fonts/Circular-Std-Bold.ttf) format('truetype');
+    }
+    @font-face{
+      font-family:'Circular Std';
+      src:local(Circular Std), url(./fonts/Circular-Std.otf) format('truetype');
+    }
