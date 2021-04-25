@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Design-Portfolio/static/css/main.5dd7eb49.chunk.css",
+    "main.js": "/Design-Portfolio/static/js/main.6a71e295.chunk.js",
+    "main.js.map": "/Design-Portfolio/static/js/main.6a71e295.chunk.js.map",
+    "runtime-main.js": "/Design-Portfolio/static/js/runtime-main.3b45afde.js",
+    "runtime-main.js.map": "/Design-Portfolio/static/js/runtime-main.3b45afde.js.map",
+    "static/css/2.80ec4faa.chunk.css": "/Design-Portfolio/static/css/2.80ec4faa.chunk.css",
+    "static/js/2.3d802fd1.chunk.js": "/Design-Portfolio/static/js/2.3d802fd1.chunk.js",
+    "static/js/2.3d802fd1.chunk.js.map": "/Design-Portfolio/static/js/2.3d802fd1.chunk.js.map",
+    "static/js/3.118b1d73.chunk.js": "/Design-Portfolio/static/js/3.118b1d73.chunk.js",
+    "static/js/3.118b1d73.chunk.js.map": "/Design-Portfolio/static/js/3.118b1d73.chunk.js.map",
+    "index.html": "/Design-Portfolio/index.html",
+    "static/css/2.80ec4faa.chunk.css.map": "/Design-Portfolio/static/css/2.80ec4faa.chunk.css.map",
+    "static/css/main.5dd7eb49.chunk.css.map": "/Design-Portfolio/static/css/main.5dd7eb49.chunk.css.map",
+    "static/js/2.3d802fd1.chunk.js.LICENSE.txt": "/Design-Portfolio/static/js/2.3d802fd1.chunk.js.LICENSE.txt",
+    "static/media/okayamadenim.css": "/Design-Portfolio/static/media/Circular-Std-Bold.71e47131.ttf",
+    "static/media/backpack.css": "/Design-Portfolio/static/media/Circular-Std.0cea81af.otf",
+    "static/media/logo.6ce24c58.svg": "/Design-Portfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b45afde.js",
+    "static/css/2.80ec4faa.chunk.css",
+    "static/js/2.3d802fd1.chunk.js",
+    "static/css/main.5dd7eb49.chunk.css",
+    "static/js/main.6a71e295.chunk.js"
+  ]
+}
