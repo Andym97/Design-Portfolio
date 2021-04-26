@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Design-Portfolio/static/css/main.09347475.chunk.css",
-    "main.js": "/Design-Portfolio/static/js/main.2db172d1.chunk.js",
-    "main.js.map": "/Design-Portfolio/static/js/main.2db172d1.chunk.js.map",
+    "main.css": "/Design-Portfolio/static/css/main.6e4ababa.chunk.css",
+    "main.js": "/Design-Portfolio/static/js/main.33c34935.chunk.js",
+    "main.js.map": "/Design-Portfolio/static/js/main.33c34935.chunk.js.map",
     "runtime-main.js": "/Design-Portfolio/static/js/runtime-main.3669b5a3.js",
     "runtime-main.js.map": "/Design-Portfolio/static/js/runtime-main.3669b5a3.js.map",
     "static/css/2.80ec4faa.chunk.css": "/Design-Portfolio/static/css/2.80ec4faa.chunk.css",
-    "static/js/2.f1d43853.chunk.js": "/Design-Portfolio/static/js/2.f1d43853.chunk.js",
-    "static/js/2.f1d43853.chunk.js.map": "/Design-Portfolio/static/js/2.f1d43853.chunk.js.map",
+    "static/js/2.60a187a1.chunk.js": "/Design-Portfolio/static/js/2.60a187a1.chunk.js",
+    "static/js/2.60a187a1.chunk.js.map": "/Design-Portfolio/static/js/2.60a187a1.chunk.js.map",
     "static/js/3.5e9dfaec.chunk.js": "/Design-Portfolio/static/js/3.5e9dfaec.chunk.js",
     "static/js/3.5e9dfaec.chunk.js.map": "/Design-Portfolio/static/js/3.5e9dfaec.chunk.js.map",
     "index.html": "/Design-Portfolio/index.html",
     "static/css/2.80ec4faa.chunk.css.map": "/Design-Portfolio/static/css/2.80ec4faa.chunk.css.map",
-    "static/css/main.09347475.chunk.css.map": "/Design-Portfolio/static/css/main.09347475.chunk.css.map",
-    "static/js/2.f1d43853.chunk.js.LICENSE.txt": "/Design-Portfolio/static/js/2.f1d43853.chunk.js.LICENSE.txt",
+    "static/css/main.6e4ababa.chunk.css.map": "/Design-Portfolio/static/css/main.6e4ababa.chunk.css.map",
+    "static/js/2.60a187a1.chunk.js.LICENSE.txt": "/Design-Portfolio/static/js/2.60a187a1.chunk.js.LICENSE.txt",
     "static/media/okayamadenim.css": "/Design-Portfolio/static/media/Circular-Std-Bold.71e47131.ttf",
     "static/media/backpack.css": "/Design-Portfolio/static/media/Circular-Std.0cea81af.otf",
     "static/media/logo.6ce24c58.svg": "/Design-Portfolio/static/media/logo.6ce24c58.svg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.3669b5a3.js",
     "static/css/2.80ec4faa.chunk.css",
-    "static/js/2.f1d43853.chunk.js",
-    "static/css/main.09347475.chunk.css",
-    "static/js/main.2db172d1.chunk.js"
+    "static/js/2.60a187a1.chunk.js",
+    "static/css/main.6e4ababa.chunk.css",
+    "static/js/main.33c34935.chunk.js"
   ]
 }
