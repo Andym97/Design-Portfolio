@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0df10453.chunk.css",
+    "main.css": "/static/css/main.741e853c.chunk.css",
     "main.js": "/static/js/main.b274e360.chunk.js",
     "main.js.map": "/static/js/main.b274e360.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.70a45729.js",
@@ -12,7 +12,7 @@
     "static/js/3.02e2ac61.chunk.js.map": "/static/js/3.02e2ac61.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.80ec4faa.chunk.css.map": "/static/css/2.80ec4faa.chunk.css.map",
-    "static/css/main.0df10453.chunk.css.map": "/static/css/main.0df10453.chunk.css.map",
+    "static/css/main.741e853c.chunk.css.map": "/static/css/main.741e853c.chunk.css.map",
     "static/js/2.fe1bb9b2.chunk.js.LICENSE.txt": "/static/js/2.fe1bb9b2.chunk.js.LICENSE.txt",
     "static/media/okayamadenim.css": "/static/media/Circular-Std-Bold.71e47131.ttf",
     "static/media/backpack.css": "/static/media/Poppins.8081832f.ttf",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.70a45729.js",
     "static/css/2.80ec4faa.chunk.css",
     "static/js/2.fe1bb9b2.chunk.js",
-    "static/css/main.0df10453.chunk.css",
+    "static/css/main.741e853c.chunk.css",
     "static/js/main.b274e360.chunk.js"
   ]
 }
