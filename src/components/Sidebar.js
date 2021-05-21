@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import {Image, Container, Row, Col} from 'react-bootstrap'
 import './Cards.css'
 import {useHistory} from "react-router-dom";
-
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 import { Transition } from 'react-transition-group';
 
@@ -49,7 +49,7 @@ ease: [0.43, 0.13, 0.23, 0.96]}
        variants={pageVariants}
        transition={pageTransition}
        >
-        <img src= './images/backarrow.png'  />    
+           <ArrowBackIcon/>
         </motion.div>          
 
           </Link>

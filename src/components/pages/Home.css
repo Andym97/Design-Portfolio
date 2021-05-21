@@ -33,7 +33,7 @@
     padding: 10px 18px 7px;
     background: rgb(231, 221, 253);
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     color: rgb(90, 3, 185);
     margin-left:0px;
     margin-top:20px;
@@ -46,11 +46,10 @@
   .home-tag.blue{
     background: rgb(219, 240, 255);
     color: rgb(0, 132, 232);
-  
-  
   }
 
-  .intro{
+
+  .home-intro{
     padding-top:0;
     margin-top: 0;
     margin-bottom: 0;
@@ -60,8 +59,47 @@
 
   }
 
-  .intro p{
+  .home-intro p{
     padding-left:0;
     padding-bottom:0;
     padding-top:5px;
+  }
+
+
+
+
+  @media screen and (min-width:768px)and ( max-width: 803px) {
+ 
+
+
+
+
+  }
+  
+  
+  
+  @media screen and (max-width: 767px) {
+
+
+   .home-tag.blue{
+    background: rgb(219, 240, 255);
+    color: rgb(0, 132, 232);
+  }
+
+
+  .home-tag{
+    align-self: flex-start;
+    border-radius: 15px;
+    padding: 10px 18px 7px;
+    background: rgb(231, 221, 253);
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(90, 3, 185);
+    margin-left:0px;
+    margin-top:20px;
+    font-family: 'Circular Std Bold';
+    display:inline;
+    
+  
+  }
   }

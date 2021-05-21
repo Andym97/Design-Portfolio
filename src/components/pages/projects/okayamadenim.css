@@ -113,6 +113,7 @@
   }
 
 
+
   .process-pic{
 
     display: block;
@@ -124,7 +125,7 @@
 
 @font-face{
   font-family:'Circular Std Bold';
-  src:local(Circular Std Bolt), url(./fonts/Circular-Std-Bold.ttf) format('truetype');
+  src:local(Circular Std Bold), url(./fonts/Circular-Std-Bold.ttf) format('truetype');
 }
 
  

@@ -1,0 +1,55 @@
+
+
+.intro{
+    width:50%;
+    text-align: left;
+    position: absolute;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.intro h1{
+    padding-left: 0px;
+    font-size: 48px;
+    font-family: 'Poppins';
+}
+
+.intro p{
+font-size:18px;
+padding-left:0px;
+
+}
+
+
+@media screen and (min-width:768px)and ( max-width: 803px) {
+ 
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+ 
+.intro{
+margin-right: auto;
+margin-left:auto;
+vertical-align: middle;
+position:absolute;
+left:0;
+right:0;
+}
+
+    .intro h1{
+font-size:24px;
+    }
+
+
+    .intro p{
+        font-size:16px;        
+        }
+}

@@ -5,10 +5,12 @@ import {BrowserRouter as Router, Switch, Route, Redirect, BrowserRouter, HashRou
 import {AnimatePresence, motion} from 'framer-motion'
 
 import Home from './components/pages/Home';
+import About from './components/pages/About';
+
 import projects from './components/pages/projects';
 import NotFound from './components/pages/404.js';
 import Resume from './components/pages/Resume';
-import Contact from './components/pages/Contact';
+import Contact from './components/pages/About';
 import okayamadenim from './components/pages/projects/okayamadenim';
 import backpack from './components/pages/projects/backpack';
 
@@ -28,7 +30,7 @@ function App() {
           <Route  path='/' exact component= {Home} />
           <Route  path='/work' exact component= {Home} />
 
-          <Route  path='https://andym97.github.io/Design-Portfolio/home' exact component= {Home} />
+          {/* <Route  path='https://andym97.github.io/Design-Portfolio/home' exact component= {Home} /> */}
 
 
           <Route  path='/projects' exact component= {projects} />
@@ -36,15 +38,14 @@ function App() {
           <Route  path='/projects/backpack' exact component= {backpack} />
 
 
+          <Route  path='/About' exact component= {About} />
 
 
           <Route  path='/resume' exact component= {Resume} />
           <Route  path='/contact' exact component= {Contact}/>
 
-
-{/* 
-          <Route  path='/404' component= {NotFound}/>
-          <Redirect to ="/404"/> */}
+          {/* <Route  path='/404' component= {NotFound}/>
+          <Redirect to ="/404"/>  */}
 
           </Switch>
           </AnimatePresence>

@@ -103,15 +103,17 @@ data-aos="fadeup"
           <div className="row">
             <div className='col'>
               <div className='container'>
+                <div className='text-container'> 
                   <div class='title'>Problem</div>
                     <li>
               <span className=' highlight-text shown'> Travelers having a hard time deciding which backpack fits their needs.</span> 
                     </li> 
                     <li>Depending on the type of traveling, they need certain features with the right capacity.</li>
                     <li>Having the right features and capacity in a backpack is essential.</li>
+                    
                 </div>
               </div>
-
+              </div>
           <div class='col'>
             <div className='container'>
               <div class='title'>Solution </div>

@@ -148,7 +148,7 @@ function Okayamadenim() {
         <div className='container'>
             <span className='tag blue'>Why</span>
                 <li>
-                In 2007, Levi Stratus has tradedmarked the red tab on the rear pocket, and similar arcuates on the rear pockets. HEY
+                In 2007, Levi Stratus has tradedmarked the red tab on the rear pocket, and similar arcuates on the rear pockets.
                 </li>
                 <li>
                 Since Japanese denim brands try to reproduce the exact details of the original Levi Stratus 501 Jean, these details must be removed by USA retailers. 

@@ -26,30 +26,40 @@ const pageTransition={
 
     }
 }
+
+
+
+
 function Home() {
+
+
+
+    const [isVisible, setVisible] = React.useState(false);
+  useEffect(() => {
+  Aos.init({
+    duration: 600,
+  
+    
+    easing: 'ease',
+   
+  });
+  }, []);
+
+
+
+  
     return (
         <div>
         <div className="page-container">
                  
           <Navbar/>
-
-  
-            <div className='intro'>
-            <motion.div data-aos="fade-right"> 
-<p> Hello, my name is Andy Mui, a UI Designer and Web Developer</p>
-
-</motion.div>
-
-
-
-</div>
-             
-      
-                    <h1 className='home-tag blue'>Case Studies </h1>
+                    <h1 className='home-tag blue' data-aos="fade-right">Case Studies </h1>
 
                     <motion.div 
-                    whileHover={{scale:1.05 }}
-                    transition={transition}
+                  whileHover={{scale:1.05 }}
+                     fade exit={{opacity:50}} 
+                     transition={transition}
+                     leave={{opacity:0}}
                     className='card'> 
                     
                     <Link to ='/projects/Backpack'>
@@ -72,8 +82,8 @@ function Home() {
                             className="title">
                             <h1 className='card-title'> Backpack Finder   </h1>   
                             <h1 className='card-subtitle'> UX/UI Design</h1> 
-                            <span className='card-description'> Assists Travelers to Find the Perfect Backpack
-                            </span>
+                            <card-span className='card-description'> Assists Travelers to Find the Perfect Backpack
+                            </card-span>
                             </motion.div>
 
                         </motion.div>
@@ -110,7 +120,7 @@ function Home() {
                             className="title">
                             <h1 className='card-title'> Okayama Denim  </h1>   
                             <h1 className='card-subtitle'>UI Design</h1> 
-                            <span className='card-description' > Concept Ecommerce App</span>
+                            <card-span className='card-description' > Concept Ecommerce App</card-span>
                             </motion.div>
 
                         </motion.div>

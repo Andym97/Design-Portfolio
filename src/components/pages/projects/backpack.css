@@ -3,6 +3,7 @@
   background-color: rgb(235, 244, 252);
   background-color: rgb(233, 243, 247);
 
+  background-color:white;
 
 
 }
@@ -21,9 +22,22 @@ padding-left:20px;
 -webkit-box-align: center;
 background-color: white;
 padding: 20px 40px 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left:8px;
+padding-right:8px;
+
+margin-left: auto;
+margin-right: auto;
+padding-right: 8px;
+padding-left: 8px;
+
+
 margin-bottom: 50px;
 box-shadow: rgb(209 230 255 / 30%) 0px 2px 12px 1px;
 }
+
+
 
 .sub-container{
   width:100%;
@@ -248,11 +262,11 @@ span{
 }
 
 p{
-  color: #5c5c5c;
+  color: #3b3b3b;
   padding-left: 20px;
   padding-top:15px;
   padding-bottom:15px;
-  font-family: 'Circular Std Bold';
+  font-family: 'Poppins';
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 40px;
@@ -261,17 +275,18 @@ p{
 
     }
 li{
-      font-family: 'Circular Std Bold';
-      font-size:16px;
-
-      line-height: 22px;
-      color: #818181;
+      font-family: 'Poppins';
+      font-size:14px;
+      letter-spacing: 1.5%;
+      line-height: 25px;
+      color: #3b3b3b;
       padding-left: 10px;
       text-align: left;
       padding-bottom:10px;
       letter-spacing:1px;
       padding-top:20px;
       padding-left:20px;
+      height:auto;
 
     }
 
@@ -292,9 +307,14 @@ li{
 
    @font-face{
       font-family:'Circular Std Bold';
-      src:local(Circular Std Bolt), url(./fonts/Circular-Std-Bold.ttf) format('truetype');
+      src:local(Circular Std Bold), url(./fonts/Circular-Std-Bold.ttf) format('truetype');
     }
     @font-face{
       font-family:'Circular Std';
       src:local(Circular Std), url(./fonts/Circular-Std.otf) format('truetype');
+    }
+
+    @font-face{
+      font-family:'Poppins';
+      src:local(Poppins), url(./fonts/Poppins.ttf) format('truetype');
     }

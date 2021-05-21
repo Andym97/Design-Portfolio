@@ -12,19 +12,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
+ 
 
   return (
     <>
@@ -32,10 +20,13 @@ function Navbar() {
    
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+
+          <div className='site-title'>
           Andy Mui
+           </div>
             <i class='fab fa-typo3' />
             <div className='side-tag-container'>
-            <side-tag> UI Design | Web Developer </side-tag>
+            <side-tag> UI Designer | Web Developer </side-tag>
 
             </div>
         
@@ -47,13 +38,13 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         
             
-            <li className='nav-item'>
+            <li  className='nav-item'>
               <Link
-                to='/Work'
+                to='/About'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-               Work
+               About
               </Link>
             </li>
             

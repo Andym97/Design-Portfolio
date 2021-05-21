@@ -7,7 +7,7 @@
     position: relative;
     border-top: .5px solid rgb(221, 221, 221);
 background-color: transparent;
-margin-top:75px;
+margin-top:10%;
 }
 
   
@@ -17,7 +17,6 @@ margin-top:75px;
       object-position: center;
       margin-left: auto;
       margin-right: auto;
-  
   }
   
   .footer img{
@@ -29,8 +28,14 @@ margin-top:75px;
     font-size:10px;
     text-align: center;
     padding-bottom:0;
+    height:50%;
+    padding-top:0px;
+    margin-top:0;
   }
 
   .footer-section{
-    background: blue;;
+  align-items: center;
+  padding-left: auto;
+  padding-right: auto;
+
   }
