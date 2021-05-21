@@ -1,0 +1,136 @@
+.OD{
+  background-color: #f3f7fc;
+}
+
+.photo-container{
+  background-color:white;
+  width:100%;
+  border-radius: 32px;
+  text-align: left;
+  flex-direction: column;
+  
+  height:auto;
+  align-items: flex-start;
+  
+  -webkit-box-align: center;
+  background-color: white;
+  padding: 20px 40px 20px;
+  margin-bottom: 50px;
+  box-shadow: rgb(209 230 255 / 57%) 0px 2px 24px 1px;
+  }
+
+.banner{
+    box-sizing: border-box;
+      flex:1;
+      width: 100%;
+   
+      height:900px;
+      box-sizing: border-box;
+      
+      position: flex;
+      display: block;
+      float: center;
+      flex:1;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    
+}
+      
+     
+  
+  video{
+    width:100%;
+    height:auto;
+    justify-content: center;
+    object-fit: cover;
+    
+  }
+
+  .banner-container{
+    box-sizing: border-box;
+    
+    display:block;
+    height:100%;
+    width:100%;
+    flex:1;
+ 
+
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  .group-left{
+    width:50%;
+    float: left;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .group-left p{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 28px;
+    margin-bottom: 48px;
+  
+  }
+
+  .group-right{
+    width:50%;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    float:right;
+    align-items: center;
+    
+
+    
+  }
+
+  .group-right p{
+    
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 32px;
+  
+  }
+
+  img{
+
+      height: 100%;
+      width:75%;
+      object-fit: cover;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 5px;
+    
+  }
+
+
+  .process-pic{
+
+    display: block;
+  width:100%;
+    margin-bottom: 5px;
+
+  }
+
+
+@font-face{
+  font-family:'Circular Std Bold';
+  src:local(Circular Std Bolt), url(./fonts/Circular-Std-Bold.ttf) format('truetype');
+}
+
+ 
+  
+ 
+
+  .first-word{
+      text-decoration: underline;
+  }

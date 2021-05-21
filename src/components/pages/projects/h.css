@@ -1,0 +1,178 @@
+.backpack1{
+    background-color: #F2F8FF;
+
+}
+
+.container{
+background-color:white;
+width:100%;
+border-radius: 32px;
+text-align: left;
+flex-direction: column;
+
+ height:auto;
+ align-items: flex-start;
+ padding-left:20px;
+
+ -webkit-box-align: center;
+ background-color: white;
+ padding: 20px 40px 20px;
+ margin-bottom: 50px;
+ box-shadow: rgb(209 230 255 / 57%) 0px 2px 24px 1px;
+
+  } 
+  .container img{
+    height:auto;
+  }
+  
+  .container text{   
+    color:#555555;
+    font-size: 18px;
+    letter-spacing: 0.38px;
+    line-height: 22px;
+    text-align: center;
+    font-family: 'Circular Std Bold';
+    margin-bottom: 10px;
+    line-height: 40px;
+    }
+
+ 
+  .wireframe{
+    width:90%;
+    height:auto;
+    margin-top:20px;
+}
+.user-persona{
+    height: 100%;
+      width:100%;
+      display: block;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      border:solid 1px black;
+      border-radius: 20px;
+  }
+.flow-img{
+    height: 100%;
+      width:100%;
+      object-fit: cover;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      margin-right: auto;
+      margin-bottom: 15px;
+      padding-top: 10px;
+  }
+
+  img{
+
+    height: auto;
+    width:100%;
+    object-fit: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+  
+}
+
+
+
+
+.grid{
+    width:100%;
+    height:100%;
+    text-align:center;  
+    align-items: center;
+  }
+
+
+
+
+/* Text Styles */
+.tag{
+    align-self: flex-start;
+    border-radius: 15px;
+    padding: 10px 18px 7px;
+    background: rgb(231, 221, 253);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(90, 3, 185);
+    margin-left:0px;
+    margin-top:20px;
+    font-family: 'Circular Std Bold';
+    
+
+}
+
+.tag.blue{
+    background: rgb(219, 240, 255);
+    color: rgb(0, 132, 232);
+  
+
+}
+
+h3{
+    color: #555555;
+    font-size:24px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Circular Std Bold';
+    margin:50px 0 25px;
+    padding-left:15px;
+}
+span{
+    margin-top: 500px;
+    padding-top: 50px;
+    display:inline;
+    
+}
+
+p{
+    padding-left: 15px;
+    padding-top:20px;
+    font-family: 'Circular Std ';
+    font-size: 18px;
+    letter-spacing: 1px;
+    color:black;
+
+
+      }
+ li{
+        font-family: 'Circular Std Bold';
+        font-size:16px;
+        line-height: 22px;
+        color: #818181;
+        padding-left: 10px;
+        text-align: left;
+        padding-bottom:15px;
+        letter-spacing: 0.4px;
+
+      }
+
+      .title{
+        color: #535353;
+        font-size:18px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: 'Circular Std Bold';
+        padding-top:25px;        
+        padding-left: 30px;
+        padding-bottom:25px;
+        letter-spacing: 0.50px;
+
+     }
+
+     @font-face{
+        font-family:'Circular Std Bold';
+        src:local(Circular Std Bolt), url(./fonts/Circular-Std-Bold.ttf) format('truetype');
+      }
+      @font-face{
+        font-family:'Circular Std';
+        src:local(Circular Std), url(./fonts/Circular-Std.otf) format('truetype');
+      }
